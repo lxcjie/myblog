@@ -5,18 +5,15 @@
 
 ## menu 
 menu:
-- page: home
+- page: 主页
   url: /
-  icon: 
-- page: 声音处理
-  url: /categories/前端/
-  icon: 
-- page: 图像处理
-  url: /categories/后端/
-  icon: 
-- page: DeepLearning
-  url: /categories/工具/
-  icon: 
+#  icon: 
+#- page: 随笔
+#  url: /categories/随笔/
+#  icon: 
+#- page: About
+#  url: /about
+#  icon: 
 
 ## favicon 
 favicon: /favicon.ico
@@ -30,7 +27,6 @@ rss: /atom.xml
 ## widgets
 widgets:
   - notification
-  - social
   - category
   - archive
   - tagcloud
@@ -95,6 +91,12 @@ excerptLength: 120
 
 ## 代码高亮配置
 highlightTheme:
+
+highlight:
+  enable: true
+  auto_detect: true
+  line_number: true
+  tab_replace:
 
 ## ICON配置
 fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
